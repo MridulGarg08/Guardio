@@ -1,8 +1,9 @@
-🛡️ Guardio — Credit Card Fraud Detection System
+# 🛡️ Guardio — Credit Card Fraud Detection System
 
-Guardio is a Machine Learning-based fraud detection system designed to identify fraudulent credit card transactions with high accuracy. The project focuses on detecting anomalous patterns in transaction data to help financial institutions minimize losses and enhance security.
+> Machine Learning system that detects fraudulent credit card transactions using advanced imbalanced data handling techniques such as SMOTE.
 
-🚀 Project Overview
+
+## 🚀 Project Overview
 
 Credit card fraud is a major challenge in the fintech industry due to:
 
@@ -16,7 +17,7 @@ High cost of false negatives
 
 This project applies data analysis, feature engineering, and machine learning techniques to build a reliable fraud detection model.
 
-📊 Dataset
+## 📊 Dataset
 
 Due to GitHub file size restrictions, the dataset is not included in this repository.
 
@@ -41,7 +42,7 @@ PCA-transformed features (V1–V28)
 
 Class → Fraud (1) / Not Fraud (0)
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 Python
 
@@ -64,13 +65,10 @@ Scaled transaction features for better model performance
 
 ✅ Exploratory Data Analysis
 
-Fraud vs Non-fraud distribution
-
-Transaction amount patterns
-
-Correlation analysis
-
-Outlier detection
+- Fraud vs Non-fraud distribution
+- Transaction amount patterns
+- Correlation analysis
+- Outlier detection
 
 ✅ Model Building
 
@@ -119,19 +117,19 @@ Deploy as a real-time fraud detection API
 Build an interactive dashboard
 Integrate streaming data detection
 
-▶️ How to Run the Project
-# Clone the repository
+## ▶️ How to Run the Project
+
+```bash
 git clone https://github.com/MridulGarg08/Guardio.git
-
-# Navigate into the folder
 cd Guardio
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Launch Jupyter Notebook
 jupyter notebook
+```
+## 📊 Results
 
+- Achieved **94% recall** in detecting fraudulent transactions  
+- Reduced false negatives significantly using SMOTE  
+- Improved classification performance compared to baseline models 
 💡 Why This Project Matters
 
 Fraud detection systems are widely used in:

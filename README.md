@@ -87,7 +87,7 @@ Maximize fraud detection while maintaining acceptable precision to reduce false 
 
 ## 📊 Results
 
-- Achieved **~94% recall** in detecting fraudulent transactions  
+- Achieved **~92% recall** in detecting fraudulent transactions  
 - Significantly reduced false negatives using SMOTE  
 - Improved classification performance compared to baseline models  
 - Built a robust pipeline for rare-event detection  
@@ -136,3 +136,8 @@ pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook
+
+👨‍💻 Author
+
+Mridul Garg
+Aspiring Data Scientist | Machine Learning Enthusiast
